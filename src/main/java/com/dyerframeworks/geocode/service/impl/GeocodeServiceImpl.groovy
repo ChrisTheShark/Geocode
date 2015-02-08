@@ -6,16 +6,14 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Component
 import com.dyerframeworks.geocode.domain.Address
 import com.dyerframeworks.geocode.domain.Location
-import com.dyerframeworks.geocode.service.GeoCodeService
+import com.dyerframeworks.geocode.service.GeocodeService
 
 /**
  * Service implementation for {@link GeoCodeService} utilizing the Google
  * GeoCode API.
- * 
- * @author Chris Dyer
  */
 @Component
-class GeoCodeServiceImpl implements GeoCodeService {
+class GeocodeServiceImpl implements GeocodeService {
 
 	@Value('${google.geocode.url}')
 	private String geocodeAPIUrl;

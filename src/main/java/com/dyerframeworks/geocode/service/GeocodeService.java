@@ -6,10 +6,8 @@ import com.dyerframeworks.geocode.domain.Location;
 /**
  * Interface declaring functionality required for any <code>class</code> providing
  * {@link Address} {@link Location} lookup.
- * 
- * @author Chris Dyer
  */
-public interface GeoCodeService {
+public interface GeocodeService {
 	
 	/**
 	 * Locate a {@link Location} for an {@link Address}. The resulting

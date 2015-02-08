@@ -4,8 +4,6 @@ import groovy.transform.EqualsAndHashCode
 
 /**
  * Domain class representing an <code>Address</code>.
- * 
- * @author Chris Dyer
  */
 @EqualsAndHashCode
 class Address {
